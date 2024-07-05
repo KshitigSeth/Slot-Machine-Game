@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", () => {
     };
 
     const SYMBOL_IMAGES = {
-        A: 'images/A.png', // Ensure these paths are correct
+        A: 'images/A.png',
         B: 'images/B.png',
         C: 'images/C.png',
         D: 'images/D.png'
