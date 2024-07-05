@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slot Machine Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Slot Machine Game</h1>
+        <button id="instructions-btn">Show Instructions</button>
+        <div id="popup" class="popup">
+            <div class="popup-content">
+                <span id="close-btn" class="close-btn">&times;</span>
+                <h2>How to Play</h2>
+                <p>Welcome to the Slot Machine Game! Here's how to play:</p>
+                <ol>
+                    <li>Deposit some money</li>
+                    <li>Place your bet per line</li>
+                    <li>Select the number of lines you wish to bet on</li>
+                    <li>Spin the slot machine!</li>
+                </ol>
+                <p>Multipliers for each symbol:</p>
+                <div class="multipliers">
+                    <div class="multiplier">
+                        <img src="images/A.png" alt="A">
+                        <p class="multiplier-text">30x</p>
+                    </div>
+                    <div class="multiplier">
+                        <img src="images/B.png" alt="B">
+                        <p class="multiplier-text">15x</p>
+                    </div>
+                    <div class="multiplier">
+                        <img src="images/C.png" alt="C">
+                        <p class="multiplier-text">5x</p>
+                    </div>
+                    <div class="multiplier">
+                        <img src="images/D.png" alt="D">
+                        <p class="multiplier-text">3x</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="game">
+            <div class="slot-machine">
+                <div class="line-label">Line 1</div>
+                <div class="row row1"></div>
+                <div class="line-label">Line 2</div>
+                <div class="row row2"></div>
+                <div class="line-label">Line 3</div>
+                <div class="row row3"></div>
+            </div>
+            <div class="controls">
+                <input type="number" id="deposit-amount" placeholder="Deposit Amount" class="wider-input">
+                <button id="deposit-btn">Deposit</button>
+                <input type="number" id="bet-amount" placeholder="Bet (per line)" class="wider-input">
+                <input type="number" id="num-lines" placeholder="Number of Lines (1-3)" class="wider-input">
+                <button id="spin-btn">Spin</button>
+            </div>
+            <div class="display">
+                <p>Balance: $<span id="balance">0.00</span></p>
+                <p>Winnings: $<span id="winnings">0.00</span></p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
