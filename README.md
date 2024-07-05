@@ -1,2 +1,2 @@
-# Slot-Machine-Game
-A slot machine simulating game built using JavaScript
+# Slot Machine Game
+This project is an interactive Slot Machine Game implemented in JavaScript. It allows players to deposit funds, place bets on multiple lines, and spin the reels to try their luck. The game calculates winnings based on the symbols that appear on each line, providing an engaging simulation of a traditional slot machine experience. Users can continue to play multiple rounds, managing their balance until they choose to cash out or run out of funds. This project demonstrates knowledge of JavaScript, user input handling, and basic game logic.
